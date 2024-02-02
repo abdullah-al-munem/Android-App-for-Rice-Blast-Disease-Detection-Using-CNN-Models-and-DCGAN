@@ -6,7 +6,7 @@ Rice is one of the staple food all over the world. Many people make their living
 
 ## Read the Paper
 ```
-ResearchGate: https://www.researchgate.net/publication/375573604_Rice_Blast_Disease_Detection_Using_CNN_Models_and_DCGAN
+https://www.researchgate.net/publication/375573604_Rice_Blast_Disease_Detection_Using_CNN_Models_and_DCGAN
 ```
 ##  Citation 
 ```
