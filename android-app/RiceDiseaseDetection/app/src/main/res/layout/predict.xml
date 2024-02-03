@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/deepGreen"
+    android:padding="5dp"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/lightGreen"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40dp"
+                android:textColor="@color/black"
+                android:text="ধানের রোগ সনাক্তকরণ"
+                android:layout_gravity="center"
+                />
+
+            <Button
+                android:id="@+id/btnTakePicture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="40dp"
+                android:backgroundTint="@color/deepGreen"
+                android:text="ছবি তুলুন" />
+
+            <Button
+                android:id="@+id/btnChooseImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/deepGreen"
+                android:text="ছবি গ্যালারি থেকে নিন"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                />
+
+            <ImageView
+                android:id="@+id/uploadedImg"
+                android:layout_width="512px"
+                android:layout_height="512px"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_gravity="center"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                />
+
+<!--            <com.oginotihiro.cropview.CropView-->
+<!--                android:id="@+id/uploadedImg"-->
+<!--                android:layout_width="512px"-->
+<!--                android:layout_height="512px"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:layout_marginBottom="5dp"-->
+<!--                android:layout_marginRight="30dp"-->
+<!--                android:layout_marginLeft="30dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                />-->
+
+            <Button
+                android:id="@+id/btnPredictDisease"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/deepGreen"
+                android:text="রোগ নির্ণয় করুন"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:id="@+id/txtResult"
+                android:layout_width="350dp"
+                android:layout_height="80dp"
+                android:text=" ফলাফল: "
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:background="@color/deepGreen"
+                />
+            <Button
+                android:id="@+id/suggestionBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/deepGreen"
+                android:text="সমাধান"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:gravity="right"
+                >
+                <Button
+                    android:id="@+id/backBtnPredict"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/deepGreen"
+                    android:text="পূর্ববর্তী পেজ"
+                    android:layout_gravity="bottom"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

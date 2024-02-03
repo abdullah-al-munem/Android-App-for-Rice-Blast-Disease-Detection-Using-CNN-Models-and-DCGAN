@@ -1,0 +1,3 @@
+without dcgan: kaggle.com/datasets/abdullahalmunem/rice-diseases-leaf-blast-classification
+dataset for dcgan: https://www.kaggle.com/datasets/abdullahalmunem/datasetfordcgan
+final dataset: will be uploaded.

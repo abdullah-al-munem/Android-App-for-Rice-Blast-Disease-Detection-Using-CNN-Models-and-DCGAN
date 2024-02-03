@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/deepGreen"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/lightGreen">
+        <TextView
+            android:id="@+id/titleTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:text="ধানের রোগ সনাক্তকরণ"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/welcomeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="60dp"
+            android:layout_marginTop="60dp"
+            android:textColor="@color/black"
+            android:text="স্বাগতম"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/predictBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/deepGreen"
+            android:text="সনাক্ত করুন"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="250dp"
+            />
+
+        <Button
+            android:id="@+id/processBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/deepGreen"
+            android:text="সনাক্তকরণ প্রক্রিয়া"
+            android:layout_marginLeft="130dp"
+            />
+        <TextView
+            android:id="@+id/sloganTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="কৃষক বাঁচাও, দেশ বাঁচাও"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="130dp"
+            />
+    </LinearLayout>
+</LinearLayout>

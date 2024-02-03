@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/deepGreen"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/lightGreen">
+        <TextView
+            android:id="@+id/titleTV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:text="নিয়মাবলী"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:id="@+id/processTV"
+            android:layout_width="350dp"
+            android:layout_height="550dp"
+            android:textSize="25dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black"
+            android:text="১. সনাক্ত করুন এ প্রেস করুন.\n২. ছবির জন্য যেকোনো একটি বাছাই করেন:\n
+        \nক্যামেরা দিয়ে তুলতে:- \n-ক্যামেরা দিয়ে ছবি তুলতে ক্যামেরা দিয়ে তুলুন এ প্রেস করেন\n - ছবি তুলুন ধানের পাতার\n - রোগ যাচাই করুন এ প্রেস করুন\n\n গ্যালারি থেকে নিতে:\n -গ্যালারি  থেকে নিন এ প্রেস করুন\n-ধানের পাতার ছবি বাছাই করুন\n-রোগ যাচাই করুন এ প্রেস করুন"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/deepGreen"
+            android:text="পূর্ববর্তী পেজ"
+            android:layout_marginLeft="280dp"
+            android:layout_marginTop="0dp"
+            />
+    </LinearLayout>
+
+</LinearLayout>

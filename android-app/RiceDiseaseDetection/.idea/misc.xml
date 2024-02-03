@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Munem/Desktop/CSE400-A/Implementation/app/RiceDiseaseDetection/app/src/main/res/layout/activity_crop.xml" value="0.25" />
+        <entry key="..\:/Users/Munem/Desktop/CSE400-A/Implementation/app/RiceDiseaseDetection/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Munem/Desktop/CSE400-A/Implementation/app/RiceDiseaseDetection/app/src/main/res/layout/predict.xml" value="0.25" />
+        <entry key="..\:/Users/Munem/Desktop/CSE400-A/Implementation/app/RiceDiseaseDetection/app/src/main/res/layout/process.xml" value="0.25" />
+        <entry key="..\:/Users/Munem/Desktop/CSE400-A/Implementation/app/RiceDiseaseDetection/app/src/main/res/xml/file_paths.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Munem/Desktop/CSE489/RiceDiseaseDetection/app/src/main/res/layout/activity_crop.xml" value="0.275" />
+        <entry key="..\:/Users/Munem/Desktop/CSE489/RiceDiseaseDetection/app/src/main/res/layout/activity_main - Copy.xml" value="0.275" />
+        <entry key="..\:/Users/Munem/Desktop/CSE489/RiceDiseaseDetection/app/src/main/res/layout/activity_main.xml" value="0.275" />
+        <entry key="..\:/Users/Munem/Desktop/CSE489/RiceDiseaseDetection/app/src/main/res/layout/activity_main_2.xml" value="0.275" />
+        <entry key="..\:/Users/Munem/Desktop/CSE489/RiceDiseaseDetection/app/src/main/res/layout/predict.xml" value="0.275" />
+        <entry key="..\:/Users/Munem/Desktop/CSE489/RiceDiseaseDetection/app/src/main/res/layout/process.xml" value="0.275" />
+        <entry key="..\:/Users/Munem/Desktop/CSE489/RiceDiseaseDetection/app/src/main/res/layout/solution.xml" value="0.27395833333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
